@@ -43,7 +43,7 @@ public class recommendController {
 		
 	}
 	
-	//asdasd
+	
 	@RequestMapping(value="/recommend/{ID}",method=RequestMethod.GET)
 	public String getRecommendMovie2(Model model,@PathVariable(value="ID") String id) 
 	{
